@@ -1,7 +1,7 @@
 //importowanie biblioteki THREE - kod rozpoczyna się od importowania bibliotek
-import * as THREE from "./three_js/three.module.js";
-import { GLTFLoader } from "./three_js/GLTFLoader.js";
-import { OrbitControls } from "./three_js/OrbitControls.js";
+import * as THREE from "./threejs/three.module.js";
+import { GLTFLoader } from "./threejs/GLTFLoader.js";
+import { OrbitControls } from "./threejs/OrbitControls.js";
 
 // tworzenie sceny, kamery perspektywicznej
 const scene = new THREE.Scene();
