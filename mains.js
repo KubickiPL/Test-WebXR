@@ -45,7 +45,7 @@ scene.add(ambientLight);
 let mesh;
 const loader = new GLTFLoader();
 loader.load(
-    "./model/dom-10000.gltf",
+    "./model/dom-1000.gltf",
     function (gltf) {
         mesh = gltf.scene;
         mesh.material = new THREE.MeshLambertMaterial();
